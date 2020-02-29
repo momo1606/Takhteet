@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Hijri year</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="spinBox_2"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Select month</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>محرم الحرام</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>صفر المظفر</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ربيع الأول</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ربيع الأخر</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>جمادي الأول</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>جمادي الأخر</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>رجب الأصب</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>شعبان الكريم</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>رمضان المعظم</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>شوال المكرم</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ذي القعدة الحرام</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ذي الحجة الحرام</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>No.of students</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="spinBox"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>No.of working days</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="spinBox_3"/>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Select layout</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>693</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Grid layout</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>693</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>List layout</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>Select takhteet type</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>693</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Line wise</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>693</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Page wise</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Proceed</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>593</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Student name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Select current Surat</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>الفاتحة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>البقرة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>آل عمران</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النساء</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المائدة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الأنعام</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الأعراف</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الأنفال</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>التوبة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>يونس</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>هود</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>يوسف</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الرعد</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>إبراهيم</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الحجر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النحل</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الإسراء</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الكهف</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>مريم</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>طه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الأنبياء</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الحج</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المؤمنون</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النور</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الفرقان</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الشعراء</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النمل</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>القصص</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>العنكبوت</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الروم</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>لقمان</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>السجدة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الأحزاب</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>سبأ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>فاطر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>يس</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الصافات</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ص</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الزمر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>غافر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>فصلت</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الشورى</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الزخرف</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الدخان</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الجاثية</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الأحقاف</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>محمد</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الفتح</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الحجرات</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ق</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الذاريات</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الطور</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النجم</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>القمر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الرحمن</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الواقعة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الحديد</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المجادلة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الحشر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الممتحنة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الصف</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الجمعة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المنافقون</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>التغابن</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الطلاق</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>التحريم</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الملك</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>القلم</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الحاقة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المعارج</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>نوح</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الجن</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المزمل</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المدثر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>القيامة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الإنسان</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المرسلات</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النبأ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النازعات</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>عبس</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>التكوير</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الإنفطار</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المطففين</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الانشقاق</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>البروج</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الطارق</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الأعلى</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الغاشية</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الفجر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>البلد</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الشمس</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الليل</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الضحى</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الشرح</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>التين</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>العلق</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>القدر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>البينة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الزلزلة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>العاديات</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>القارعة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>التكاثر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>العصر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الهمزة</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الفيل</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>قريش</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الماعون</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الكوثر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الكافرون</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>النصر</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>المسد</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الإخلاص</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الفلق</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>الناس</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Current ayat</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="spinBox"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Pages per day</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Generate</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
